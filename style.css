@@ -1,0 +1,59 @@
+nav {
+    background-color: #d09c9c; /* Cor de fundo do menu */
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+nav ul {
+    list-style-type: none; /* Remove as bolinhas padrão da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Faz com que os itens fiquem lado a lado na horizontal */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255); /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte do texto */
+}
+
+nav ul li a:hover {
+    color: #4d4141; /* Cor do texto ao passar o mouse (hover) */
+}
+
+div img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d09c9c;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4d4141;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #4d4141;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: white;
+}
+
+.contato{
+    background-color: #d09c9c;
+}
